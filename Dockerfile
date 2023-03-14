@@ -1,1 +1,1 @@
-FROM docker.io/calico/kube-controllers:v3.24.2
+FROM velero/velero:v1.10.2
