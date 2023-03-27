@@ -1,1 +1,1 @@
-FROM velero/velero:v1.10.2
+FROM kubesphere/ks-installer:v3.3.2 
