@@ -1,1 +1,1 @@
-FROM registry.k8s.io/sig-storage/nfsplugin:v4.6.0
+FROM registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.10.1
