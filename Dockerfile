@@ -1,1 +1,1 @@
-FROM gcmirrors/kube-state-metrics:v1.9.5
+FROM prom/alertmanager:v0.27.0
