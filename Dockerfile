@@ -1,1 +1,1 @@
-FROM prom/alertmanager:v0.27.0
+FROM grafana/grafana:10.2.5
