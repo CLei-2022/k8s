@@ -1,1 +1,1 @@
-FROM grafana/grafana:10.2.5
+FROM ikubernetes/xtrabackup:1.0
