@@ -1,1 +1,1 @@
-FROM ikubernetes/xtrabackup:1.0
+FROM docker.io/calico/cni:v3.27.2
