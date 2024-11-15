@@ -1,1 +1,1 @@
-FROM redis:7.0
+FROM eipwork/kuboard:v3
