@@ -1,1 +1,1 @@
-FROM eipwork/kuboard:v3
+FROM eipwork/etcd:v3.4.14
