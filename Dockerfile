@@ -1,1 +1,1 @@
-FROM eipwork/etcd:v3.4.14
+FROM openebs/node-disk-manager:2.1.0
