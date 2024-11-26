@@ -1,1 +1,1 @@
-FROM mysql:8.0
+FROM nginx:1.20-alpine
