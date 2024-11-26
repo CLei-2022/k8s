@@ -1,1 +1,1 @@
-FROM nginx:1.20-alpine
+FROM wordpress:5.8-fpm
