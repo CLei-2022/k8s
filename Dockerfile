@@ -1,1 +1,1 @@
-FROM wordpress:5.8-fpm
+FROM bogeit/nfs-subdir-external-provisioner:v4.0.2
