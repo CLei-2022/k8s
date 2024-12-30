@@ -1,1 +1,1 @@
-FROM prometheuscommunity/elasticsearch-exporter:v1.7.0
+FROM ikubernetes/admin-box:v1.2
