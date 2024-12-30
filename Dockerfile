@@ -1,1 +1,1 @@
-FROM ikubernetes/admin-box:v1.2
+FROM fluent/fluent-bit:2.2.2
