@@ -1,1 +1,1 @@
-FROM redis:7.2
+FROM oliver006/redis_exporter:v1.55.0-alpine 
