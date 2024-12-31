@@ -1,1 +1,1 @@
-FROM hub.atomgit.com/library/redis@sha256:d32ea2e1a25614266433dc39e91c292cbd78e3db6770ef631f877f5ca8b97ef1
+FROM redis:7.2
