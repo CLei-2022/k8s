@@ -1,1 +1,1 @@
-FROM ikubernetes/mall-portal:1.0-SNAPSHOT
+FROM ikubernetes/mall-admin:1.0-SNAPSHOT
