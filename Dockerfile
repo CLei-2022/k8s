@@ -1,1 +1,1 @@
-FROM redis:7.2
+FROM ikubernetes/mall-portal:1.0-SNAPSHOT
