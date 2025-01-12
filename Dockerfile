@@ -1,1 +1,1 @@
-FROM java:8-jdk-alpine
+FROM jenkins/inbound-agent:latest
