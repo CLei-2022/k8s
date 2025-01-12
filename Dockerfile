@@ -1,1 +1,1 @@
-FROM openjdk:8-jdk-alpine
+FROM lizhenliang/java:8-jdk-alpine
