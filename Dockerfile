@@ -1,1 +1,1 @@
-FROM ikubernetes/mall-search:1.0-SNAPSHOT
+FROM openjdk:8-jdk
