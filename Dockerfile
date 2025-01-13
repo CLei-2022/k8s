@@ -1,1 +1,1 @@
-FROM jenkins/jenkins:jdk17
+FROM jenkins/jenkins:lts-jdk8
