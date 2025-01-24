@@ -3,5 +3,5 @@
 #FROM prom/node-exporter:latest
 #FROM grafana/grafana:latest
 #FROM lizhenliang/kube-state-metrics:v2.9.2 
-FROM prom/blackbox-exporter:latest
-#FROM lizhenliang/flask-app-metrics:latest
+#FROM prom/blackbox-exporter:latest
+FROM lizhenliang/flask-app-metrics:latest
