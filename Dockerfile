@@ -1,6 +1,11 @@
-#FROM docker.elastic.co/elasticsearch/elasticsearch:8.10.2
-#FROM docker.elastic.co/beats/filebeat:8.10.2
-#FROM docker.elastic.co/logstash/logstash:8.10.2
-#FROM registry.k8s.io/ingress-nginx/controller:v1.12.0@sha256:e6b8de175acda6ca913891f0f727bca4527e797d52688cbe9fec9040d6f6b6fa
-#FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.0@sha256:aaafd456bda110628b2d4ca6296f38731a3aaf0bf7581efae824a41c770a8fc4
-FROM percona/mongodb_exporter:0.40
+FROM docker.io/rook/ceph:master
+FROM gcr.io/k8s-staging-sig-storage/objectstorage-sidecar:v20240513-v0.1.0-35-gefb3255
+FROM quay.io/ceph/ceph:v19.2.1
+FROM quay.io/ceph/cosi:v0.1.2
+FROM quay.io/cephcsi/cephcsi:v3.13.0
+FROM quay.io/csiaddons/k8s-sidecar:v0.11.0
+FROM registry.k8s.io/sig-storage/csi-attacher:v4.8.0
+FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0
+FROM registry.k8s.io/sig-storage/csi-provisioner:v5.1.0
+FROM registry.k8s.io/sig-storage/csi-resizer:v1.13.1
+FROM registry.k8s.io/sig-storage/csi-snapshotter:v8.2.0
