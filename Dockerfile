@@ -1,5 +1,5 @@
-FROM docker.io/rook/ceph:master
-#FROM gcr.io/k8s-staging-sig-storage/objectstorage-sidecar:v20240513-v0.1.0-35-gefb3255
+#FROM docker.io/rook/ceph:master
+FROM gcr.io/k8s-staging-sig-storage/objectstorage-sidecar:v20240513-v0.1.0-35-gefb3255
 #FROM quay.io/ceph/ceph:v19.2.1
 #FROM quay.io/ceph/cosi:v0.1.2
 #FROM quay.io/cephcsi/cephcsi:v3.13.0
