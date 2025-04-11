@@ -1,5 +1,6 @@
+FROM  tomcat
 #FROM  openebs/provisioner-nfs:0.11.0
-FROM openebs/nfs-server-alpine:0.11.0
+#FROM openebs/nfs-server-alpine:0.11.0
 #FROM docker.io/rook/ceph:master
 #FROM gcr.io/k8s-staging-sig-storage/objectstorage-sidecar:v20240513-v0.1.0-35-gefb3255
 #FROM quay.io/ceph/ceph:v19.2.1
