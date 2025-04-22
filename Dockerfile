@@ -1,4 +1,4 @@
-FROM dhub.kubesre.xyz/postgres:15-alpine
+FROM postgres:15-alpine
 #FROM dhub.kubesre.xyz/redis:6-alpine
 #FROM dockerhub.icu/semitechnologies/weaviate:1.19.0
 #FROM dockerhub.icu/langgenius/dify-sandbox:0.2.10
