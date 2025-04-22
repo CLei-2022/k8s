@@ -1,8 +1,8 @@
 #FROM postgres:15-alpine
 #FROM redis:6-alpine
 #FROM semitechnologies/weaviate:1.19.0
-FROM langgenius/dify-sandbox:0.2.11
-#FROM ubuntu/squid:latest
+#FROM langgenius/dify-sandbox:0.2.11
+FROM ubuntu/squid:latest
 #FROM langgenius/dify-api:1.2.0
 #FROM langgenius/dify-web:1.2.0
 #FROM dockerhub.icu/langgenius/dify-api:0.15.2
