@@ -1,12 +1,3 @@
-#FROM postgres:15-alpine
-#FROM redis:6-alpine
-#FROM semitechnologies/weaviate:1.19.0
-#FROM langgenius/dify-sandbox:0.2.11
-#FROM ubuntu/squid:latest
-#FROM langgenius/dify-api:1.2.0
-FROM langgenius/dify-web:1.2.0
-#FROM dockerhub.icu/langgenius/dify-api:0.15.2
-#FROM dockerhub.icu/langgenius/dify-api:0.15.2
-#FROM dockerhub.icu/langgenius/dify-web:0.15.2
-#FROM nginx:stable
-#FROM langgenius/dify-plugin-daemon:0.0.6-local
+FROM registry.k8s.io/ingress-nginx/controller:v1.14.1@sha256:f95a79b85fb93ac3de752c71a5c27d5ceae10a18b61904dec224c1c6a4581e4
+#FROM registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.5@sha256:03a00eb0e255e8a25fa49926c24cde0f7e12e8d072c445cdf5136ec78b546285
+
